@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Unbounded-Regular';
+    background: #FDF6F2;
+}
+
+.section {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Unbounded-Regular';
+    src: url(../style/Unbounded-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Unbounded-Bold';
+    src: url(../style/Unbounded-Bold.ttf);
+}
+
+
+
+.korzina {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px 0px;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.korzina-inf {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    gap: 90px;
+}
+
+.korzina-name {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.korzina-name-img {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.korzina-name-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.korzina-count {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.korzina-count-pl {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
+}
+
+.korzina-price-count {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+
+.korzina-price {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+.korzina-finally-price {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
+}
+
+.korzina-inf hr {
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    border: 1px solid #D8D8D8;
+}
+
+.korzina-name-img img {
+    width: 102px;
+    background: #DED4CB;
+    padding: 10px;
+    border: 15px;
+}
+
+.korzina h2 {
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.korzina-finally-price h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.bkorzina-finally-price h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.korzina-btn {
+    padding: 25px 213px;
+    background: #333;
+    border: 1px solid #333;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border-radius: 20px;
+}
+
+.korzina-btn:hover {
+    background: transparent;
+    color: #333333;
+}
+
+.bkorzina-inf h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.korzina-name-text h4 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.korzina-name-text p {
+    font-size: 13px;
+    color: #ACACAC;
+    font-weight: 300;
+}
+
+.korzina-count h4 {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.korzina-count h5 {
+    font-size: 11px;
+    font-weight: 400;
+    color: #ACACAC;
+}
+
+.korzina-price h4 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+}
+
+
+/*  корзина энд */
